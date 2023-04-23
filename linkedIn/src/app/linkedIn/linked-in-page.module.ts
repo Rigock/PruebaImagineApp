@@ -6,6 +6,7 @@ import { AddsComponent } from './adds/adds.component';
 import { HomeComponent } from './home/home.component';
 import { LinkedInRoutingModule } from './linked-in-routing.module';
 import { PersonalInfoComponent } from './contact/personal-info/personal-info.component';
+import { CreateComponent } from './news/create/create.component';
 
 
 @NgModule({
@@ -14,7 +15,8 @@ import { PersonalInfoComponent } from './contact/personal-info/personal-info.com
     NewsComponent,
     AddsComponent,
     HomeComponent,
-    PersonalInfoComponent
+    PersonalInfoComponent,
+    CreateComponent
   ],
   imports: [
     CommonModule,
