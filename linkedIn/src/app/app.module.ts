@@ -4,6 +4,7 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { LinkedInPageModule } from './linkedIn/linked-in-page.module';
+import { NoopAnimationsModule } from '@angular/platform-browser/animations';
 
 @NgModule({
   declarations: [
@@ -12,7 +13,8 @@ import { LinkedInPageModule } from './linkedIn/linked-in-page.module';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    LinkedInPageModule
+    LinkedInPageModule,
+    NoopAnimationsModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
